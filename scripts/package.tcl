@@ -32,7 +32,7 @@ psi::ip_package::$vivadoVersion\::add_sources_relative { \
 ###############################################################
 
 #Remove reset interface (Vivado messes up polarity...)
-#psi::ip_package::$vivadoVersion\::remove_autodetected_interface Rst
+psi::ip_package::$vivadoVersion\::remove_autodetected_interface Rst
 
 ###############################################################
 # Package Core
